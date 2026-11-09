@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Media Copy Pro</string>
+    
+    <string name="source_directory">Select Source Directory</string>
+    <string name="select_source">Select Source</string>
+    <string name="none_selected">None selected</string>
+    
+    <string name="destination_directory">Select Destination Directory</string>
+    <string name="select_destination">Select Destination</string>
+    
+    <string name="options">Options</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="recursive_flatten">Recursive (Flatten structure)</string>
+    <string name="conflict_strategy">Conflict Strategy</string>
+    
+    <string name="profile_info_title">Profile</string>
+    <string name="profile_info_text">Profiles save your option configurations. You can save, save as, or delete profiles. The Default profile cannot be deleted. Unsaved changes to options will be lost on exit.</string>
+    
+    <string name="folder_scan_info_title">Folder Scan</string>
+    <string name="folder_scan_info_text">Recursive: Scans all subdirectories within the selected source folder.\nCurrent folder: Scans only the selected source folder, ignoring subdirectories.</string>
+    
+    <string name="conflict_strategy_info_title">Conflict Strategy</string>
+    <string name="conflict_strategy_info_text">Skip: Ignores the file if it already exists in the destination.\nOverwrite: Replaces the existing file in the destination.\nRename: Appends a number to the file name (e.g. file(1).jpg).\nSmart: Skips if the file size and date match, otherwise renames.</string>
+    
+    <string name="extension_pattern_label">Extension Pattern (e.g. jpg,mp4)</string>
+    <string name="extension_pattern_info_title">Extension Pattern</string>
+    <string name="extension_pattern_info_text">Extensions are separated by commas (e.g. jpg,mp4). It must be media files like video and photos.</string>
+    
+    <string name="file_name_pattern_label">File Name Pattern (e.g. *20260102*)</string>
+    <string name="file_name_pattern_info_title">File Name Pattern</string>
+    <string name="file_name_pattern_info_text">Patterns can be separated by commas. Use * for wildcard (e.g. *holiday*).</string>
+    
+    <string name="dest_format_label">Dest Format (e.g. {yyyy}-{MM}/{file_name})</string>
+    <string name="dest_format_info_title">Destination Format</string>
+    <string name="dest_format_info_text">Use \"/\" to create folders (e.g. {yyyy}/{MM}/{file_name}).\n\nAvailable variables:\n{yyyy} - Year (e.g., 2026)\n{MM} - Month (01-12)\n{dd} - Day (01-31)\n{HH} - Hour (00-23)\n{mm} - Minute (00-59)\n{ss} - Second (00-59)\n{file_name} - Full file name (e.g. abc.jpg)\n{file_relative_path} - Relative folder path without file name (e.g. aaa/bbb)\n{file_name_only} - File name without extension (e.g. abc)\n{file_ext} - Original file extension (e.g. jpg)</string>
+    
+    <string name="ok">OK</string>
+    <string name="start_copy">Start Copy</string>
+</resources>
